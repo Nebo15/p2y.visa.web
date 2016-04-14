@@ -8,6 +8,7 @@
     <link rel="stylesheet" media="all" href="css/font-awesome.min.css">
     <link rel="stylesheet" media="all" href="css/screen.css">
     <link rel="stylesheet" media="all" href="css/terminal.css">
+    <link rel="stylesheet" media="all" href="css/overrides.css">
     <!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
   </head>
   <body class="is-terminal">
@@ -31,7 +32,7 @@
           <button type="button" class="btn-menu js-btn-menu"> <span></span></button>
         </div>
       </header>
-      <section style="background-image: url(./img/topic_bg.png)" class="topic">
+      <section class="topic">
         <div class="topic__in">
           <div class="title-big">ПОПОЛНЯЙТЕ КАРТЫ <br>В ТЕРМИНАЛАХ</div>
           <div class="field"><a href="#info" class="scroll-to"><i class="fa fa-arrow-down"></i></a></div>
@@ -47,7 +48,7 @@
                 <!-- <a href="#" class="btn btn_middle btn_bord-op">City-pay</a>
                 <a href="#" class="btn btn_middle btn_bord-op">24 Non Stop</a>
                 <a href="#" class="btn btn_middle btn_bord-op">Банк Народнй Капитал</a> -->
-                <a href="http://fc-sistema.com/" class="btn btn_middle btn_bord-op">Regul Pay</a>
+                <a class="btn btn_middle btn_bord-op">Regul Pay</a>
               </div>
             </div>
             <div class="topic__right">
@@ -58,8 +59,8 @@
                 <div class="js-popup-out">
                   <ul class="partners">
                     <li class="partners__item"><a href="#" class="js-open-popup"><img src="img/svg/visa_action.svg" alt="img"></a></li>
-                    <li class="partners__item"><a href="#"><img src="img/svg/mc_white.svg" alt="img"></a></li>
-                    <li class="partners__item"><a href="#"><img src="img/svg/maestro_white.svg" alt="img"></a></li>
+                    <!-- <li class="partners__item"><a href="#"><img src="img/svg/mc_white.svg" alt="img"></a></li>
+                    <li class="partners__item"><a href="#"><img src="img/svg/maestro_white.svg" alt="img"></a></li> -->
                   </ul>
                   <div class="popup js-popup">
                     <div class="popup__in">
@@ -248,32 +249,33 @@
           </div>
         </div>
       </section>
-      <!-- <section class="maps">
-        <div class="field"><a href="#get-map" class="scroll-to"><i class="fa fa-arrow-down"></i></a></div>
+      <section class="maps">
+        <div class="field"><i class="fa fa-arrow-down"></i></a></div>
         <h3 id="get-map" class="title-rocket"><span class="title-rocket__text"> <span>ГДЕ пополнить карту?</span><i class="fa fa-rocket"></i><i class="fa fa-rocket is-right"></i></span></h3>
-            <div class="map" id="map" style="height: 350px;">
+            <!-- <div class="map" id="map" style="height: 350px;"> -->
         </div>
-      </section> -->
+      </section>
+      <a name="get-map"></a>
       <section class="partn">
         <div class="partn__in">
-          <div class="partn__list" style="text-align: center;">
+          <div class="partn__list text-center">
             <!-- <li><a href="#"><img src="./img/partn-img-1.png" alt="img"></a></li> -->
-            <li><a href="http://fc-sistema.com/"><img src="./img/partn-img-2.jpg" alt="img"></a></li>
+            <li><a><img src="./img/partn-img-2.jpg" alt="img"></a></li>
             <!-- <li><a href="#"><img src="./img/partn-img-3.jpg" alt="img"></a></li> -->
             <!-- <li><a href="#"><img src="./img/partn-img-4.png" alt="img"></a></li> -->
           </div>
-          <div style="text-align: center">
-            <a href="files/regulpay_terminals_ukraine.xls" style="color: #4D4D4D; margin-top: 15px;">Загрузить список терминалов</a>
+          <div class="text-center">
+            <a href="files/regulpay_terminals_ukraine.xls" class="download-link">Загрузить список терминалов</a>
           </div>
         </div>
       </section>
-      <!-- <section class="solutions">
+      <section class="solutions">
         <div class="solutions__in">
           <div class="solutions__title">Больше решений от PAY2YOU:</div>
-          <div class="solutions__wrap">
+          <div class="solutions__wrap text-center">
             <div class="solutions__item">
               <div class="solutions__top">
-                <div class="solutions__text">Комиссия при переводе с карты на карту</div>
+                <div class="solutions__text">Переводы с карты на карту</div>
                 <div class="stock">
                   <div class="stock__top">
                     <div class="stock__disc"><i class="icon"><img src="img/stock.png" alt="img"></i>
@@ -282,63 +284,11 @@
                   </div>
                 </div>
               </div>
-              <div class="solutions__bot"><a href="#">подробнее</a></div>
-            </div>
-            <div class="solutions__item">
-              <div class="solutions__top">
-                <div class="solutions__text">Комиссия при переводе с карты на карту</div>
-                <div class="stock">
-                  <div class="stock__top">
-                    <div class="stock__disc"><i class="icon"><img src="img/stock.png" alt="img"></i>
-                      <div class="stock__plus">+ 5 грн</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="solutions__bot"><a href="#">подробнее</a></div>
-            </div>
-            <div class="solutions__item">
-              <div class="solutions__top">
-                <div class="solutions__text">Комиссия при переводе с карты на карту</div>
-                <div class="stock">
-                  <div class="stock__top">
-                    <div class="stock__disc"><i class="icon"><img src="img/stock.png" alt="img"></i>
-                      <div class="stock__plus">+ 5 грн</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="solutions__bot"><a href="#">подробнее</a></div>
-            </div>
-            <div class="solutions__item">
-              <div class="solutions__top">
-                <div class="solutions__text">Комиссия при переводе с карты на карту</div>
-                <div class="stock">
-                  <div class="stock__top">
-                    <div class="stock__disc"><i class="icon"><img src="img/stock.png" alt="img"></i>
-                      <div class="stock__plus">+ 5 грн</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="solutions__bot"><a href="#">подробнее</a></div>
-            </div>
-            <div class="solutions__item">
-              <div class="solutions__top">
-                <div class="solutions__text">Комиссия при переводе с карты на карту</div>
-                <div class="stock">
-                  <div class="stock__top">
-                    <div class="stock__disc"><i class="icon"><img src="img/stock.png" alt="img"></i>
-                      <div class="stock__plus">+ 5 грн</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="solutions__bot"><a href="#">подробнее</a></div>
+              <div class="solutions__bot"><a href="#">Перевести деньги</a></div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </div>
     <!--END out-->
     <!--FOOTER-->

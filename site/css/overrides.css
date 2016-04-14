@@ -1,0 +1,16 @@
+.topic {
+  background-image: url(../img/topic_bg.png);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.download-link {
+  color: #4D4D4D;
+  margin-top: 15px;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
